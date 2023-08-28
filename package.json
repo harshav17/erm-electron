@@ -1,0 +1,31 @@
+{
+  "name": "erm-electron",
+  "version": "0.0.1",
+  "description": "employee tool for job applications",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "."
+  },
+  "keywords": [
+    "employee",
+    "relationship",
+    "management",
+    "jobs",
+    "candidate",
+    "apply"
+  ],
+  "author": "Harsha Lingampally",
+  "license": "MIT",
+  "volta": {
+    "node": "18.17.1",
+    "npm": "9.6.7"
+  },
+  "devDependencies": {
+    "electron": "^26.1.0"
+  }
+}
